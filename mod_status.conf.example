@@ -1,0 +1,16 @@
+# Apache mod_status configuration example
+#
+# Copy to /etc/apache2/conf-available/mod_status.conf (Debian/Ubuntu)
+# and enable with: a2enconf mod_status && systemctl reload apache2
+
+<Location /server-status>
+    SetHandler server-status
+
+    # Local access is enough for the default check-apache-mpm.sh URL.
+    Require local
+
+    # Add trusted monitoring networks only when remote access is required.
+    # Require ip 192.0.2.0/24
+</Location>
+
+ExtendedStatus On
