@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+# Author: mnheia
+# Copyright (c) 2026 mnheia
+# Repository: https://github.com/mnheia/apache-tools
+# License: GPL-3.0 (see LICENSE)
+
 set -uo pipefail
 
 WARN_PCT="${WARN_PCT:-80}"
