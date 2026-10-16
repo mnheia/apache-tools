@@ -1,4 +1,4 @@
-Copyright (c) 2026, Mnheia <mnheia@gmail.com>
+Copyright (c) 2026, mnheia
 
 # apache-tools
 Bash utilities for Apache log analysis, visitor statistics, IP resolution and MPM health monitoring.
